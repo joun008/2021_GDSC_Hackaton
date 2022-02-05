@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: 'GowunBatang-Regular';
+  }
+  @font-face {
+    font-family: 'GowunBatang-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunBatang-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.logo{
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 55px;
+  padding: 20px;
+  padding-bottom: 0px;
+  text-align: center;
+  border: none;
+}
+.signup {
+  width: 500px;height:750px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0px;
+  padding: 20px;
+  padding-top:0px;
+  text-align: center;
+  border: none;
+  
+}
+.title{
+  font-size: 18px;
+  text-align:left;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+.text {
+  background-color: rgb(240, 240, 240);
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  width: 460px;
+  margin-bottom: 10px;
+}
+.btn {
+font-size: 16px;
+border: none;
+padding: 10px;
+width: 460px;
+background-color: white;
+border :1px solid #ffaedd;
+margin-bottom: 30px;
+}
+.btn:hover{
+  background-color : #ffaedd;
+}
